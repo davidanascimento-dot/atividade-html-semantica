@@ -1,31 +1,71 @@
-header {
-background:#F5A3A3;
-padding:16px; }
 
-.painel { background:#fff;
-background:#fff; border:1px solid #ccc;
-border-radius:8px; box-shadow:0 2px 8px rgba(204, 11, 11, 0.1);
-padding:12px; }
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4; 
+    color: #222;
+    margin: 0; 
+}
 
-.topo { background:#ffffff;
-background:#ff66007e; border:1px solid #000000;
-border-radius:8px; box-shadow:0 2px 8px rgba(255, 255, 255, 0.1);
-padding:12px; }
+
+header, .topo {
+    padding: 16px;
+    background: #F5A3A3;
+    color: #fff;
+}
+
+
+.painel {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,.1); 
+    padding: 20px;
+    margin: 20px; 
+}
 
 .painel h2 {
-border-bottom:1px solid #ccc; margin-bottom:12px; 
-padding:0 8px; }
-.painel h2 { font-size:16px; color:#000000; }
-body { font-family:Arial, sans-serif; background:#f9f9f9; margin:0; padding:16px; }
+    font-size: 16px;
+    color: #333;
+    margin-top: 0;
+}
 
 
+.footer-link {
+    text-decoration: none;
+    margin-right: 15px;
+    padding: 5px 10px;
+    transition: 0.3s;
+}
+
+.footer-link:hover {
+    color: #fff;
+    background: #F5A3A3;
+    border-radius: 4px;
+}
+
+.footer-link:focus {
+    outline: 2px solid #F5A3A3;
+}
 
 
-a.footer-link:hover { color:#fff; background:#F5A3A3; }
+a[href^="http"] {
+    color: #F5A3A3;
+    font-weight: bold;
+}
 
-a.footer-link:focus { outline:2px solid #F5A3A3; }
+a[href^="http"]::before {
+    content: "🌐 "; 
+}
 
-
-a[href^="https://github.com/davidanascimento-dot/atividade-html-semantica"] { color:#F5A3A3; }
-
-
+.rodape {
+    font-size: 12px;
+    color: #f80000;
+    text-align: center;
+    margin-top: 20px;
+    border-bottom: #f80000 1px solid;
+    background-color: rgba(24, 219, 219, 0.733);
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px;
+    border-radius: 8px;
+    
+}
